@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+*{margin: 0;
+padding: 0;}
+
+body{font-family: 'Roboto', sans-serif;}
+/*global css*/
+.container{
+            width: 1200px;
+            margin: 0 auto;
+            }
+.row{
+    display:flex;
+    flex-wrap: wrap;}
+
+.col-3{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+img{max-width: 100%}
+
+/*custom css*/
+/*header start*/
+header{
+    border-bottom: 2px solid #00000026;
+    }
+header .row{align-items: center;}    
+.logo{flex-basis:10%;
+    max-width:10%;
+     /*box-sizing: border-box;*/}
+
+.logo a img{width: 100%;}
+
+nav{flex-basis: 80%;
+    max-width: 80%;}
+nav ul{display: flex;
+    justify-content: flex-end;}
+nav ul li{
+    list-style: none;
+    /* padding: 15px 0px; */
+}
+nav ul li a {
+    color: #2c5286;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 25px 20px;
+    display: block;
+    /*transition: all 0.5s ease;*/
+}
+nav ul li a:hover{
+            color: #0c66ff;
+            transform: scale(1.1);
+            transition: all 0.5s ease;
+            }
+
+/*banner start*/
+.banner-section {
+    padding: 50px 0;
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    color: #1c063ce8;
+}
+h1 span{
+    color: #0c66ff;
+    display: block;
+}
+.banner-section p{
+    width: 63%;
+    margin: 15px auto;
+    font-size: 18px;
+    color: #3b506c;
+}
+.banner-section img{width: 50%;}
+
+/*feature start*/
+.feature-section{padding: 40px 0;}
+
+.feature-section .row{justify-content: center;}
+.feature-content{}
+.text-right{text-align: right;}
+.feature-content h2{
+    font-size: 50px;
+    color: #1c063ce8;
+    line-height: 1;
+    }
+    
+.feature-content h2 span{
+    color: tomato;
+}
+.feature-content p{font-size: 20px;
+                    padding: 5px 0;
+                color: #3b506c;}
+
+/*blog start*/
+.blog-section{
+    padding: 50px 0;
+}
+.blog{
+    padding: 50px 30px;
+    box-shadow: 0 0 20px #00000024;
+    
+}
+
+.blog:hover{box-shadow: none;
+            border-radius: 20px;
+        transition: all 0.5s ease;}
+.red{
+    background: #fdebed;
+}
+.green{
+    background: #ebf9f4;
+}
+.blue{
+    background: #fff7e8;
+}
+.blog img{
+    height: 200px;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+.blog h2{
+    margin: 10px 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+.blog p{
+    color: #3b506c;
+    font-size: 16px;
+}
+
+/*footer start*/
+footer{
+    background: #008aff;
+    padding: 35px 0;
+}
+footer p{
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+}
